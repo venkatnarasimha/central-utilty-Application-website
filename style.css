@@ -54,7 +54,7 @@ a :hover {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    font-size: 28px;
+    font-size: 22px;
     gap: 10px;
   }
 }
