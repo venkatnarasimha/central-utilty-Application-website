@@ -45,16 +45,15 @@ a :hover {
 .wrapper {
   display: grid;
   margin-left: 50px;
-  grid-template-columns: repeat(3 ,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   font-size: 18px;
 }
 
-@media screen and (max-width: 600px)
-{
+@media screen and (max-width: 600px) {
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(1 ,1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-size: 28px;
     gap: 10px;
   }
