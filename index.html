@@ -4,107 +4,410 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="style2.css">
     <title>Utility Applications</title>
-    <link rel = "icon" href ="https://img.icons8.com/material-rounded/24/000000/wrench.png" type = "image/x-icon">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <h2>
-            <a>Utility Apps</a>
-            <img src="https://img.icons8.com/material-sharp/48/ffffff/wrench.png"/>
-        </h2>
-            
-    </div>
-    <br><br>
-    <div class="wrapper">
-        
-        <div class="encoders">
-            <a href="https://encodersdecoders.netlify.app/"><h3>URL Encoder/Decoder</h3></a>
-            <ul>
-                <li><a href="https://encodersdecoders.netlify.app/url-encoder-decoder.html">Base64 Encoder</a></li>
-                <li><a href="https://encodersdecoders.netlify.app/base64encode.html">Base64 Decoder</a></li>
-                <li><a href="https://encodersdecoders.netlify.app/md-5hashgenerator.html">MD-5 HashGenerator</a></li>
-                <li><a href="https://encodersdecoders.netlify.app/sha-1hashgenerator.html">SHA-1 HashGenerator</a></li>
-                <li><a href="https://encodersdecoders.netlify.app/sha-256hashgenerator.html">SHA-256 HashGenerator</a></li>
-                <li><a href="https://encodersdecoders.netlify.app/sha-512hashgenerator.html">SHA-512 HashGenerator</a></li>
-            </ul>
-        </div>
-        
-        <div class="string">
-            <h3>String Utilities</h3>
-            <ul>
-                <li><a href="https://stringutility.netlify.app/stringoperations.html">Upper Case</a></li>
-                <li><a href="https://stringutility.netlify.app/stringoperations.html">Lower Case</a></li>
-                <li><a href="https://stringutility.netlify.app/stringoperations.html">Capitalize</a></li>
-                <li><a href="https://stringutility.netlify.app/stringoperations.html">Reverse</a></li>
+        <div class="search">
+            <div class="navbar">
+                <h2>
+                    <a href="#">Utility Apps</a>
+                    <img src="https://img.icons8.com/material-sharp/48/ffffff/wrench.png"/>
                 
-                <li><a href="https://stringutility.netlify.app/count.html">Character Count</a></li>
-                <li><a href="https://stringutility.netlify.app/count.html">Words Count</a></li>
-                <li><a href="https://stringutility.netlify.app/count.html">Sentence Count</a></li>
-                
-                <li><a href="https://stringutility.netlify.app/random-string-generator.html">Random String Generator</a></li>
-                <li><a href="https://stringutility.netlify.app/random-password-generator.html">Random Password Generator</a></li>
-                <li><a href="https://stringutility.netlify.app/uuid-generator.html">UUID Generator</a></li>
-
-            </ul>
+                </h2>
+                 <hr color="black" width="95%">   
+            </div>
+            <div class="search-bar">
+                <!-- <input type="text" class="input-bar" placeholder="Search bar under maintainence"/>
+                <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" class="search-icon"/> -->
+            </div>
         </div>
+        <section>
+        <div class="wrapper">
 
-        <div class="base">
-            <a href="https://base-converters.netlify.app/"><h3>Base Converters</h3></a>
-            <ul>
-                <li><a href="https://base-converters.netlify.app/binarytodecimal.html">Binary to Decimal</a></li>
-                <li><a href="https://base-converters.netlify.app/binarytohexadecimal.html">Binary to Hex</a></li>
-                <li><a href="https://base-converters.netlify.app/binarytooctal.html">Binary to Octal</a></li>
-                <li><a href="https://base-converters.netlify.app/decimaltobinary.html">Decimal to Binary</a></li>
-                <li><a href="https://base-converters.netlify.app/decimaltohex.html">Decimal to Hex</a></li>
-                <li><a href="https://base-converters.netlify.app/decimaltooctal.html">Decimal to Octal</a></li>
-                <li><a href="https://base-converters.netlify.app/hexatobinary.html">Hex to Binary</a></li>
-                <li><a href="https://base-converters.netlify.app/hexatodecimal.html">Hex to Decimal</a></li>
-                <li><a href="https://base-converters.netlify.app/hexatooctal.html">Hex to Octal</a></li>
-                <li><a href="https://base-converters.netlify.app/octaltobinary.html">Octal to Binary</a></li>
-                <li><a href="https://base-converters.netlify.app/octaltodecimal.html">Octal to Decimal</a></li>
-                <li><a href="https://base-converters.netlify.app/octaltohexa.html">Octal to Hex</a></li>
-            </ul>
+            <div class="card main">
+                <div class="front">
+                   <span>
+                    <i class="large material-icons">code</i>
+                    <p class="p">Encoders & Decoders</p>
+                   </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Encoders & Decoders</h3>
+                    <div class="links">
+                        <span>
+                            
+                            <a href="https://encodersdecoders.netlify.app/url-encoder-decoder.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Base64 Encoder</a>
+                        </span>
+                        <span>
+                            <a href="https://encodersdecoders.netlify.app/base64encode.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Base64 Decoder</a>
+                        </span>
+                        <span>
+                            <a href="https://encodersdecoders.netlify.app/md-5hashgenerator.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>MD-5 HashGenerator</a>
+                        </span>
+                       
+                        <span>
+                            <a href="https://encodersdecoders.netlify.app/sha-1hashgenerator.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>SHA-1 HashGenerator</a>
+                        </span>
+                        <span>
+                            <a href="https://encodersdecoders.netlify.app/sha-256hashgenerator.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>SHA-256 HashGenerator</a>
+                        </span>
+                        <span>
+                            <a href="https://encodersdecoders.netlify.app/sha-512hashgenerator.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>SHA-512 HashGenerator</a>
+                        </span>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="card main">
+                <div class="front">
+                   <span>
+                    <i class="large material-icons">sort_by_alpha</i>
+                    <p class="p">String Utilities</p>
+                   </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">String Utilities</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://stringutility.netlify.app/stringoperations.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Upper Case</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/stringoperations.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Lower Case</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/stringoperations.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Capitalize</a>
+                        </span>
+                       
+                        <span>
+                            <a href="https://stringutility.netlify.app/stringoperations.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Reverse</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/count.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Character Count</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/count.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Words Count</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/count.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Sentence Count</a>
+                        </span>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="card main">
+                <div class="front">
+                   <span>
+                    <i class="large material-icons">description</i>
+                    <p class="p">Random Generator</p>
+                   </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Random Generators</h3>
+                    <div class="links">
+                        <span>
+                            
+                            <a href="https://stringutility.netlify.app/random-string-generator.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Random String Generator</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/random-password-generator.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Random Password Generator</a>
+                        </span>
+                        <span>
+                            <a href="https://stringutility.netlify.app/uuid-generator.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>UUID Generator</a>
+                        </span>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Binary to XXX-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">cached</i>
+                        <p class="p">Binary to XXX</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Binary to XXX</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Binary to Decimal</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Binary to Hex</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Binary to Octal</a>
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decimal to XXX-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">cached</i>
+                        <p class="p">Decimal to XXX</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Decimal to XXX</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Decimal to Binary</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Decimal to Hex</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Decimal to Octal</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hex to XXX-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">cached</i>
+                        <p class="p">Hex to XXX</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Hex to XXX</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Hex to Binary</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Hex to Decimal</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Hex to Octal</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Octal to XXX-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">cached</i>
+                        <p class="p">Octal to XXX</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Octal to XXX</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Octal to Binary</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Octal to Binary</a>
+                        </span>
+                        <span>
+                            <a href="https://base-converters.netlify.app/binarytodecimal.html"> <img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Octal to Hex</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unit converters-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">transfer_within_a_station </i>
+                        <p class="p">Unit Converters</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Unit Converters</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://unit-converters.netlify.app/length-converter.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Length</a>
+                        </span>
+                        <span>
+                            <a href="https://unit-converters.netlify.app/weight-and-mass-converter.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Weight/mass</a>
+                        </span>
+                        <span>
+                            <a href="https://unit-converters.netlify.app/temperature.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Temperature</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Color converters-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">palette</i>
+                        <p class="p">RGB & HEX Converter</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Color Converter</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://utility-appl.netlify.app/rgbtohexconverter"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>RGB to HEX converter</a>
+                        </span>
+                        <span>
+                            <a href="https://utility-appl.netlify.app/hextorgbconverter.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>HEX to RGB converter</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Epoch converters-->
+             <div class="card main">
+                <div class="front">
+                    <span>
+                        <p class="p">Epoch Time </p>
+                        <i class="large material-icons">transform</i>
+                        <p class="p">Human Date</p>
+                        <p class="p">Converter</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Epoch Time Converter</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://epoch-converters.netlify.app/epoch-converter.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Epoch Time to HumanDate</a>
+                        </span>
+                        <span>
+                            <a href="https://epoch-converters.netlify.app/epoch-converter.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>HumanDate to Epoch Time</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stop Watch-->
+            <div class="card main">
+                <div class="front">
+                    <span>
+                        <i class="large material-icons">timer</i>
+                        <p class="p">StopWatch</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">StopWatch</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://online-stopwatch-timer.netlify.app/stopwatch.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>StopWatch</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timer-->
+            <div class="card main">
+                <div class="front">
+                    <span> 
+                        <i class="large material-icons">hourglass_empty</i>
+                        <p class="p">Timer</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2"> Timer</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://online-stopwatch-timer.netlify.app/timer.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Timer</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Language Translator-->
+            <div class="card main">
+                <div class="front">
+                    <span> 
+                        <i class="large material-icons">translate</i>
+                        <p class="p">Language</p>
+                        <p class="p">translator</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">Language translate</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://lang-translator.netlify.app/language-translator.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>Language Translator</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IP Address-->
+            <div class="card main">
+                <div class="front">
+                    <span> 
+                        <i class="large material-icons">place</i>
+                        <p class="p">MY IP </p>
+                        <p class="p">Address</p>
+                    </span>
+                   
+                </div>
+                <div class="back">
+                    <h3 class="card-h2">MY IP Address</h3>
+                    <div class="links">
+                        <span>
+                            <a href="https://stringutility.netlify.app/myipaddress.html"><img class="lin-img" src="https://img.icons8.com/metro/18/000000/link.png"/>My IP Address</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-        <div class="unit">
-            <h3>Common Converters</h3>
-            <ul>
-                <li><a href="https://unit-converters.netlify.app/length-converter.html">Length</a></li>
-                <li><a href="https://unit-converters.netlify.app/weight-and-mass-converter.html">Weight/mass</a></li>
-                <li><a href="https://unit-converters.netlify.app/temperature.html">Temperature</a></li>
-            </ul>
+     <!-- footer -->
+     <footer class="center">
+        <h1>Stay Connected</h1>
+        <div class="social_media_icons">
+          <a href="https://www.facebook.com/venkat.narasimha.3194/" target="_blank_"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://github.com/venkatnarasimha" target="_blank_"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="mailto:venkatkommineni9@gmail.com"
+            target="_blank_"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/venkatnarasimha/"
+            target="_blank_"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </div>
-
-        <div class="color">
-            <h3>Color Converters</h3>
-            <ul>
-                <li><a href="https://utility-appl.netlify.app/rgbtohexconverter">RGB to HEX converter</a></li>
-                <li><a href="https://utility-appl.netlify.app/hextorgbconverter.html">HEX to RGB converter</a></li>
-            </ul>
-        </div>
-
-        <div class="Time">
-            <h3>Epoch Converters</h3>
-            <ul>
-                <li><a href="https://epoch-converters.netlify.app/epoch-converter.html">Epoch time to HumanDate Converter</a></li>
-                <li><a href="https://epoch-converters.netlify.app/epoch-converter.html">HumanDate to Epoch converter</a></li>
-                <li><a href="https://online-stopwatch-timer.netlify.app/stopwatch.html">StopWatch</a></li>
-                <li><a href="https://online-stopwatch-timer.netlify.app/timer.html">Timer</a></li>
-               
-            </ul>
-        </div>
-       
-    </div>
-
-    <div class=above-footer>
-
-    </div>
-    <footer class="footer">
-        <span class="footer-copyright-wat">© UTILITY APPLICATIONS</span>
-        <span class="footer-copyright-divider">|</span>
-        <span class="footer-copyright-arr"> NO COPYRIGHTS</span>
-    </footer>
+      </footer>
 </body>
+
 </html>
+
+

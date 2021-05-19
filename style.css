@@ -12,7 +12,8 @@ html body {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
+  padding-top: 10000px;
 }
 
 h3 {
