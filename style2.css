@@ -50,18 +50,6 @@ input {
   border: none;
 }
 
-@media (max-width: 750px) {
-  .search-bar {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    width: 450px;
-    border: none;
-  }
-}
-
 .search-icon {
   margin-left: -35px;
   text-align: center;
