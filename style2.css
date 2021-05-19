@@ -217,6 +217,11 @@ footer .social_media_icons a i {
   font-size: 1.8em;
   padding: 0.2em;
   transition: color 0.4s;
+  color: white;
+}
+
+footer h1 {
+  color: white;
 }
 
 footer .social_media_icons a:hover i {
